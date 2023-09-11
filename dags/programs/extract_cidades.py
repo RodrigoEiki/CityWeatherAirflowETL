@@ -5,7 +5,7 @@ from io import StringIO
 import boto3
 from airflow.contrib.hooks.aws_hook import AwsHook
 
-API_KEY = "85b6426e812160e4c90239da304dbbc6"
+API_KEY = "INSERT YOUR API KEY HERE"
 cidades = ["sao paulo","rio de janeiro", "brasilia", "fortaleza", "salvador", "manaus", "curitiba", "recife", "goiania", "porto alegre"]
 bucket_name = "openweather-project"
 current_date = datetime.now().strftime("%Y-%m-%d")
