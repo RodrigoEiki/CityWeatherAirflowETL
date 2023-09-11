@@ -9,10 +9,10 @@ current_date = datetime.now().strftime("%Y-%m-%d")
 month = datetime.now().strftime("%b")
 bucket_name = "openweather-project"
 file_key = f"trusted/{month}/{current_date}.csv"
-rds_endpoint = 'openweather-project.cajkj1g9pal4.us-east-2.rds.amazonaws.com'
-rds_dbname = 'openweather'
-rds_username = 'admin'
-rds_password = 'admin123'
+rds_endpoint = 'INSERT RDS ENDPOINT'
+rds_dbname = 'INSERT DB NAME'
+rds_username = 'INSERT DB USERNAME'
+rds_password = 'INSERT DB PASSWORD'
 
 def load_rds():
     aws_hook = AwsHook("aws_credentials_id")
