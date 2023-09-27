@@ -2,7 +2,7 @@
 
 In this project, we will construct an ETL batch pipeline to extract weather data for the top 10 biggest cities in Brazil using [Openweather API](https://openweathermap.org/api) and automate it with Apache Airflow.
 
-foto
+![DIAGRAM_OPENWEATHER](https://github.com/RodrigoEiki/CityWeatherAirflowETL/assets/125326098/f0c47a1a-155a-4a73-92d2-27f228cbbfe9)
 
 We selected AWS as our cloud provider for this project to establish the necessary infrastructure for data storage. The following tools were used to build this project:
 
