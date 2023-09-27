@@ -67,4 +67,4 @@ date: 1694028619 -> 2023-09-06 16:30
 
 4. Load transformed data `create in step 3` to RDS MySQL Database. (load_to_rds.py)
 
-Printscreen of database
+![RDS_Data](https://github.com/RodrigoEiki/CityWeatherAirflowETL/assets/125326098/ed99a254-a608-427f-9601-2af75ac40b54)
